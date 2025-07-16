@@ -36,7 +36,6 @@ const Footer = () => {
                 <li>✅ Patient-Centric Approach</li>
                 <li>✅ Modern Medical Technology</li>
                 <li>✅ Patient-Centric Approach</li>
-                <li>✅ 24/7 Emergency Services</li>
               </ul>
             </div>
             <div className="col-lg-3 my-4">
