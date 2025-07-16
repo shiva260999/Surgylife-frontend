@@ -35,7 +35,7 @@ const Register = () => {
         navigate("/admin");
       })
       .catch((err) => {
-        alert("Better luck next time");
+        alert("Better luck next timess");
       });
   };
   return (
