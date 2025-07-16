@@ -10,7 +10,7 @@ const Viewappointments = () => {
 
   useEffect(() => {
     axios
-      .get("https://surgylife-backend.onrender.com")
+      .get("https://surgylife-backend.onrender.com/appointment")
       .then((res) => {
         setData(res.data);
       })

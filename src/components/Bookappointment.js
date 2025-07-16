@@ -28,7 +28,7 @@ const Bookappointment = () => {
       return;
     }
     axios
-      .post("https://surgylife-backend.onrender.com", {
+      .post("https://surgylife-backend.onrender.com/appointment", {
         patientName,
         email,
         mobile,

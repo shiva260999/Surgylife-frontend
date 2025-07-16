@@ -8,9 +8,12 @@ const ForgotPassword = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://surgylife-backend.onrender.com", {
-        email,
-      });
+      const res = await axios.post(
+        "https://surgylife-backend.onrender.com/forgotpassword",
+        {
+          email,
+        }
+      );
       setMessage(res.data.message);
     } catch (err) {
       setMessage(err.response?.data?.message || "Error sending reset link");

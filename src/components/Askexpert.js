@@ -11,7 +11,7 @@ const AskExpert = () => {
   const submitQuery = (e) => {
     e.preventDefault();
     axios
-      .post("https://surgylife-backend.onrender.com", {
+      .post("https://surgylife-backend.onrender.com/askexpert", {
         name,
         email,
         mobile,
