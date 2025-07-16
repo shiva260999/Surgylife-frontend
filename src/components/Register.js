@@ -23,7 +23,7 @@ const Register = () => {
   const adminRegister = (e) => {
     e.preventDefault();
     axios
-      .post("https://surgylife-backend.onrender.com", {
+      .post("https://surgylife-backend.onrender.com/register", {
         name,
         email,
         password,
