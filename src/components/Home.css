@@ -1,0 +1,15 @@
+div.home {
+  background-color: rgb(199, 180, 245);
+}
+
+div.home p {
+  letter-spacing: 2px;
+}
+
+div.content {
+  background-color: rgb(220, 210, 243);
+}
+div.content p {
+  margin: 0%;
+  letter-spacing: 1px;
+}

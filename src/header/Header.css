@@ -1,0 +1,13 @@
+header ul li {
+  color: #000;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+header img {
+  height: 80px;
+}
+header {
+  background-color: rgb(234, 229, 243);
+}

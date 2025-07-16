@@ -1,0 +1,13 @@
+.footer {
+  background-color: rgb(234, 229, 243);
+}
+
+.footer p {
+  letter-spacing: 1px;
+}
+.footer-bottom {
+  background-color: rgb(174, 150, 218);
+}
+.footer-bottom p {
+  margin: 0px;
+}
