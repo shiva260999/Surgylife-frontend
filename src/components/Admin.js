@@ -16,7 +16,7 @@ const Admin = () => {
   const adminLoginCheck = (e) => {
     e.preventDefault();
     axios
-      .post(`https://surgylife-backend.onrender.com`, { email, password })
+      .post(`https://surgylife-backend.onrender.com/login`, { email, password })
       .then((res) => {
         if (res.data === "valid") {
           navigate("/admindashboard");
