@@ -8,7 +8,7 @@ const ForgotPassword = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:4000/forgotpassword", {
+      const res = await axios.post("https://surgylife-backend.onrender.com", {
         email,
       });
       setMessage(res.data.message);

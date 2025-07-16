@@ -10,7 +10,7 @@ const Addtreatment = () => {
   const addTreatmentData = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:4000/treatment", {
+      .post("https://surgylife-backend.onrender.com", {
         name,
         description,
         price,

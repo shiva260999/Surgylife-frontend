@@ -11,7 +11,7 @@ const ResetPassword = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        `http://localhost:4000/resetpassword/${id}`,
+        `https://surgylife-backend.onrender.com/${id}`,
         { password }
       );
       setMessage(res.data.message);

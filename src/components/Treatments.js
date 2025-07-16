@@ -7,7 +7,7 @@ const Treatments = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:4000/treatment")
+      .get("https://surgylife-backend.onrender.com")
       .then((res) => setData(res.data))
       .catch((err) => console.log(err));
   }, []);
