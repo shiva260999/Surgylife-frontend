@@ -17,7 +17,9 @@ const Contactus = () => {
           <div className="row">
             <div className="col-lg-8 col-md-12 mb-4">
               <div className="p-4 rounded-4 shadow bg-white">
-                <h4 className="fw-semibold mb-4">Send Us a Message</h4>
+                <h4 className="fw-semibold mb-4 text-center">
+                  Send Us a Message
+                </h4>
                 <form>
                   <div className="row g-3">
                     <div className="col-md-6">
